@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --secondary: #a491d2;
+    --gray: #bec1bb;
+    --gray-text: #5d5e5c;
+    --secondary-hover: #cdc3e6;
+    --white: #fff;
+    --main-bg: #e8ebe4;
+
+}
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-bg);
+
+}
+.principal{
+    display: flex;
+    width: 100%;
+ }
+ .chat{
+     width: 22%;
+     display: flex;
+     flex-direction: column;
+ }
+ .friends{
+     display: flex;
+     justify-content: space-between;
+     height: 70px;
+     border: 1px solid var(--gray);
+     background-color: var(--white);
+     align-items: center;
+     width: 100%;
+     padding: 0 20px;
+ }
+.mariaimg{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 15px;
+} 
+.mariaimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.mariatext{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin: auto;
+    color: #4c4854;
+    align-self: flex-start;
+}
+.mariatext h4{
+    font-size: 19px;
+}
+.mariatext p{
+    color: var(--gray);
+}
+.mariaicono{
+    width: 30%;
+}
+.mariaicono i{
+    margin: 0 4px;
+    font-size: 18px;
+    color: var(--gray);
+    cursor: pointer;
+}
+.profile{
+    width: 3rem;
+    height: 3rem;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;  
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    width: 70%;
+    color: var(--gray-text);
+}
+.nuevochat{
+    height: 120px;
+    display: flex;
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    
+}
+.nuevochat .btn{
+    border: none;
+    background: var(--secondary);
+    color: var(--white);
+    border-radius: 0;
+    padding: 16px 70px;
+    cursor: pointer;
+    margin: auto;
+}
+.nuevochat .btn:hover{
+    background-color: var(--secondary-hover);
+}
+.contenido{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--white);
+}
+.logo{
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 30px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.contenido-text h1{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.contenido p{
+    font-size: 1.2rem;
+}
+
+        
+
